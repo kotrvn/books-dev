@@ -1,0 +1,30 @@
+{
+  "name": "book-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack-cli": "^3.3.9",
+    "webpack": "^4.40.2"
+  },
+  "devDependencies": {
+    "errorhandler": "^1.5.1",
+    "npm run start:dev": "^3.8.1",
+    "webpack-dev-server": "^3.8.1"
+  },
+  "scripts": {
+    "build": "npx webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotrvn/books-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kotrvn/books-dev/issues"
+  },
+  "homepage": "https://github.com/kotrvn/books-dev#readme"
+}
